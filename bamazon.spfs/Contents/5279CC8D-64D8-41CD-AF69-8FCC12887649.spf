@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>bamazon</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>homework</string>
+			<key>port</key>
+			<integer>3306</integer>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK8QDwcIFRYXGBkfICEoLDA0OFUkbnVs
+			bNMJCgsMEBRXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6MNDg+A
+			AoADgASjERITgAWABoAKgA5UdHlwZVRyb3dzVGtleXNfECZTZWxl
+			Y3Rpb25EZXRhaWxUeXBlUHJpbWFyeUtleWVkRGV0YWlsc9MJCgsa
+			HB6hG4AHoR2ACIAJUTUJ0iIjJCVaJGNsYXNzbmFtZVgkY2xhc3Nl
+			c18QE05TTXV0YWJsZURpY3Rpb25hcnmjJCYnXE5TRGljdGlvbmFy
+			eVhOU09iamVjdNIKCykroSqAC4AN0gstLi9ZTlMuc3RyaW5ngAxX
+			aXRlbV9pZNIiIzEyXxAPTlNNdXRhYmxlU3RyaW5nozEzJ1hOU1N0
+			cmluZ9IiIzU2Xk5TTXV0YWJsZUFycmF5ozU3J1dOU0FycmF50iIj
+			JjmiJidfEA9OU0tleWVkQXJjaGl2ZXLRPD1UZGF0YYABAAgAEQAa
+			ACMALQAyADcASQBPAFYAXgBpAHAAdAB2AHgAegB+AIAAggCEAIYA
+			iwCQAJUAvgDFAMcAyQDLAM0AzwDRANIA1wDiAOsBAQEFARIBGwEg
+			ASIBJAEmASsBNQE3AT8BRAFWAVoBYwFoAXcBewGDAYgBiwGdAaAB
+			pQAAAAAAAAIBAAAAAAAAAD4AAAAAAAAAAAAAAAAAAAGn
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {559, 671}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>CREATE DATABASE bamazon;
+
+CREATE TABLE products(
+item_id INTEGER (11) AUTO_INCREMENT NOT NULL,
+product_name VARCHAR (100) NOT NULL,
+department_name VARCHAR (50) NOT NULL,
+price DECIMAL (5,2) NOT NULL,
+stock_quantity INTEGER (11) NOT NULL,
+PRIMARY KEY (item_id)
+)
+
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("AA batteries", "electronics", 8.50, 75)</string>
+			<key>table</key>
+			<string>products</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>263</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("AA batteries", "electronics", 8.50, 75)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("playstation 4", "electronics", 300.00, 67)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("bananas", "food", 2.56, 40)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("bananas", "food, 2.56, 40)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("paper towels", "cleaning", 12.56, 30)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("cereal", "food", 4.65, 230)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("toothbrush", "hygiene", 50.00, 10)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("Farcry 5", "electronics", 50.00, 10)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("laptop", "electronics", 1000.00, 110)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("xbox one", "electronics", 300.00, 150)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("basketball", "sports", 10.00, 100)</string>
+		<string>CREATE TABLE products(
+item_id INTEGER (11) AUTO_INCREMENT NOT NULL,
+product_name VARCHAR (100) NOT NULL,
+department_name VARCHAR (50) NOT NULL,
+price DECIMAL (5,2) NOT NULL,
+stock_quantity INTEGER (11) NOT NULL,
+PRIMARY KEY (item_id)
+)</string>
+		<string>CREATE TABLE products(
+item_id INTEGER (11) AUTO_INCREMENT NOT NULL,
+product_name VARCHAR (100) NOT NULL,
+department_name VARCHAR (50) NOT NULL,
+price DECIMAL (5,2) NOT NULL,
+stock_quantity INTEGER (11) NOT NULL,
+PRIMARY KEY (item_id)
+)
+
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("basketball", "sports", 10.00, 100)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES ("basketball", sports, 10.00, 100)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+
+VALUES (basketball, sports, 10.00, 100)</string>
+		<string>CREATE TABLE products(
+item_id INTEGER (11) AUTO_INCREMENT NOT NULL,
+product_name VARCHAR (100) NOT NULL,
+department_name VARCHAR (50) NOT NULL,
+price DECIMAL (5,2) NOT NULL,
+stock_quantiy INTEGER (50) NOT NULL,
+PRIMARY KEY (item_id)
+)</string>
+		<string>CREATE TABLE products(
+item_id INTEGER (11) AUTO_INCREMENT NOT NULL,
+product_name VARCHAR (50) NOT NULL,
+department_name VARCHAR (50) NOT NULL,
+price DECIMAL (5,2) NOT NULL,
+stock_quantiy INTEGER (50) NOT NULL,
+PRIMARY KEY (item_id)
+)</string>
+		<string>CREATE TABLE products(
+item_id INTEGER (11) AUTO_INCREMENT NOT NULL,
+product_name VARCHAR (50) NOT NULL,
+department_name VARCHAR (50) NOT NULL,
+price DECIMAL (3,2) NOT NULL,
+stock_quantiy INTEGER (50) NOT NULL,
+PRIMARY KEY (item_id)
+)</string>
+		<string>CREATE TABLE products(
+id INTEGER (11) AUTO_INCREMENT NOT NULL,
+product_name VARCHAR (50) NOT NULL,
+department_name VARCHAR (50) NOT NULL,
+price DECIMAL (3,2) NOT NULL,
+stock_quantiy INTEGER (50) NOT NULL,
+PRIMARY (id)
+)</string>
+		<string>CREATE TABLE products(
+item_id INTEGER (11) AUTO_INCREMENT NOT NULL,
+product_name VARCHAR (50) NOT NULL,
+department_name VARCHAR (50) NOT NULL,
+price DECIMAL (3,2) NOT NULL,
+stock_quantiy INTEGER (50) NOT NULL,
+PRIMARY (item_id)
+)</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.6.38</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
